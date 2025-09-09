@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Digita un numero da cui far partire il conto alla rovescia!");
         int n = parseInt(s.nextLine());
         contoAllaRovescia(n);
+        s.close();
     }
 
     public static void contoAllaRovescia(int n) {

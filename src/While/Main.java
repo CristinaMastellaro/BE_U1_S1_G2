@@ -13,6 +13,7 @@ public class Main {
             if (string.equals(":q")) break;
             System.out.println(obtainChars(string));
         }
+        s.close();
 
     }
 

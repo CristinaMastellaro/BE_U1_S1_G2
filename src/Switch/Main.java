@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Scrivi un numero - preferibilmente tra 0 e 3:");
         int n = parseInt(scanner.nextLine());
         System.out.println("Vediamo se riusciamo a convertire il tuo numero in lettere: " + writeNumber(n));
+        scanner.close();
     };
 
     public static String writeNumber(int n) {
