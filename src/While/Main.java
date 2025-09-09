@@ -20,7 +20,6 @@ public class Main {
     public static String obtainChars(String s) {
         String[] arr = s.split("");
         String sArr = Arrays.toString(arr);
-        sArr = sArr.substring(1, sArr.length() - 1);
-        return sArr;
+        return sArr.substring(1, sArr.length() - 1);
     }
 }
